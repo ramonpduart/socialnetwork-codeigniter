@@ -35,7 +35,7 @@ $config['base_url'] = 'C:\Users\ramon\OneDrive\Documentos\NetBeansProjects\tccli
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = 'index.html';
 
 /*
 |--------------------------------------------------------------------------

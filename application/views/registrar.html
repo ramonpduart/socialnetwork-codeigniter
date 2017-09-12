@@ -46,34 +46,35 @@ and open the template in the editor.
 		<form role="form">
 			<h2>Registre-se <small>É rápido, simples e fácil.</small></h2>
 			<hr class="colorgraph">
+                        <b>Atenção:</b> Os campos marcados com * são de preenchimento obrigatório.
 			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-6">
+				<br><div class="col-xs-12 col-sm-6 col-md-6">
 					<div class="form-group">
-                        <input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder="Nome" tabindex="1">
+                        <input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder="Nome *" tabindex="1">
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-6">
 					<div class="form-group">
-						<input type="text" name="last_name" id="last_name" class="form-control input-lg" placeholder="Sobrenome" tabindex="2">
+						<input type="text" name="last_name" id="last_name" class="form-control input-lg" placeholder="Sobrenome *" tabindex="2">
 					</div>
 				</div>
 			</div>
 			
 			<div class="form-group">
-				<input type="email" name="email" id="email" class="form-control input-lg" placeholder="E-mail" tabindex="4">
+				<input type="email" name="email" id="email" class="form-control input-lg" placeholder="E-mail *" tabindex="4">
 			</div> 
                         <div class="form-group">
-				<input type="email" name="profissao" id="profissao" class="form-control input-lg" placeholder="Profissão" tabindex="4">
+				<input type="email" name="profissao" id="profissao" class="form-control input-lg" placeholder="Profissão *" tabindex="4">
 			</div> 
                         
                         <div class="form-group">                             
-                         <label><h2><small>Imagem de perfil</small></h2></label>
+                         <label><h2><small>Imagem de perfil *</small></h2></label>
 
                         <input type="file" id="BSbtninfo" class="form-control input-lg">
 			</div>
                         
                         <div class="form-group">
-                            <label><h2><small>Interesses</small></h2></label>
+                            <label><h2><small>Interesses *</small></h2></label>
                                 <select class="form-control input-lg">
                                     <option> </option> 
                                   <option>Tecnologia</option>
@@ -142,7 +143,7 @@ and open the template in the editor.
                              
 			</div>
                         <div class="form-group">
-                            <label><h2><small>Defina sua senha</small></h2></label>
+                            <label><h2><small>Defina sua senha *</small></h2></label>
                         </div>
 			<div class="row">
                             
@@ -155,17 +156,6 @@ and open the template in the editor.
 					<div class="form-group">
 						<input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-lg" placeholder="Confirme senha" maxlength="4" tabindex="6">
 					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-4 col-sm-3 col-md-3">
-					<span class="button-checkbox">
-						<button type="button" class="btn" data-color="info" tabindex="7">Aceito os termos</button>
-                        <input type="checkbox" name="t_and_c" id="t_and_c" class="hidden" value="1">
-					</span>
-				</div>
-				<div class="col-xs-8 col-sm-9 col-md-9">
-					 Ao clicar em <strong class="label label-primary">Registrar</strong>, voçê aceita os <a href="#" data-toggle="modal" data-target="#t_and_c_m">Termos e Condições</a> deste site, incluindo o uso de Cookies.
 				</div>
 			</div>
 			
